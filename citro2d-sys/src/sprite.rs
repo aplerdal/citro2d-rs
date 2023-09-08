@@ -20,3 +20,20 @@ pub static fn C2D_SpriteFromImage(sprite: &mut C2D_Sprite, image: C2D_Image){
 pub static fn C2D_SpriteFromSheet(sprite: &mut C2D_Sprite, sheet: C2D_SpriteSheet ,index:u32) {
      C2D_SpriteFromImage(sprite, C2D_SpriteSheetGetImage(sheet, index));
 }
+
+#[inline]
+pub static fn C2D_SpriteScale(sprite: &mut C2D_Sprite, x:f32, y:f32) {
+    sprite.params.pos.w *= x;
+    sprite.params.pos.h *= y;
+    sprite.params.center.x *= x;
+    sprite.params.center.y *= y;
+}
+#[inline]
+pub static fn C2D_SpriteRotate(sprite: &mut C2D_Sprite, radians:f32) {
+    sprite.params.angle += radians;
+}
+#[inline]
+pub static fn C2D_SpriteRotateDegrees(sprite: &mut C2D_Sprite, degrees:f32) {
+    C2D_SpriteRotate(sprite, C3D_AngleFromDegrees(degrees));
+}
+
