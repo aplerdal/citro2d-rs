@@ -16,7 +16,9 @@ mod bindings;
 
 pub use base::*;
 pub use bindings::*;
+/*
 pub use gx::*;
 pub use renderqueue::*;
 pub use texenv::*;
 pub use uniforms::*;
+*/

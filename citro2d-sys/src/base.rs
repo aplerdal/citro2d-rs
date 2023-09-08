@@ -20,6 +20,7 @@ pub fn C2D_Color32f(r:f32, g:f32, b:f32, a:f32) -> u32{
 	return C2D_Color32(C2D_FloatToU8(r),C2D_FloatToU8(g),C2D_FloatToU8(b),C2D_FloatToU8(a));
 }
 
+#[derive(Clone)]
 pub enum C2D_Corner {
     C2D_TopLeft,  ///< Top left corner
 	C2D_TopRight, ///< Top right corner
@@ -29,7 +30,7 @@ pub enum C2D_Corner {
 
 #[inline]
 pub unsafe fn C2D_SetImageTint(tint : &mut C2D_ImageTint, corner:C2D_Corner, color:u32,blend:f32){
-    tint.corners[corner as usize].color = color;
+    tint.corners[corner.clone() as usize].color = color;
     tint.corners[corner as usize].blend = blend;
 }
 
