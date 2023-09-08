@@ -1,5 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:rerun-if-env-changed=DEVKITPRO
-cargo:rustc-link-search=native=C:\devkitpro/libctru/lib
-cargo:rustc-link-lib=static=ctrud
-cargo:warning=failed to check libctru version: libctru version is 2.2.1-1 but this crate was built for 2.2.2-1
