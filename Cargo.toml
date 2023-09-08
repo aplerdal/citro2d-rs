@@ -1,0 +1,2 @@
+[workspace]
+members = ["citro2d-sys", "bindgen-citro2d"]

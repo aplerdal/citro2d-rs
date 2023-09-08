@@ -1,0 +1,1 @@
+{"rustc":15973989707865396201,"features":"","target":0,"profile":0,"path":0,"deps":[[2798846484360888381,"build_script_build",false,17134715559474550548]],"local":[{"RerunIfChanged":{"output":"armv6k-nintendo-3ds\\debug\\build\\libc-57f9157c28d4a24c\\output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

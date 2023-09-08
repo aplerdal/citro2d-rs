@@ -1,0 +1,10 @@
+[package]
+name = "citro2d-sys"
+version = "0.1.0"
+authors = [ "Antimattur" ]
+edition = "2021"
+license = "Zlib"
+
+[dependencies]
+libc = "0.2.116"
+ctru-sys = { git = "https://github.com/rust3ds/ctru-rs.git" }

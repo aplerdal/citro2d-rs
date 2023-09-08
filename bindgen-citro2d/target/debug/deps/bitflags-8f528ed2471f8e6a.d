@@ -1,0 +1,11 @@
+C:\Users\apler\desktop2\3dsdev\citro2d-rs\bindgen-citro2d\target\debug\deps\bitflags-8f528ed2471f8e6a.rmeta: C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\lib.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\iter.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\parser.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\traits.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\public.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\internal.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\external.rs
+
+C:\Users\apler\desktop2\3dsdev\citro2d-rs\bindgen-citro2d\target\debug\deps\bitflags-8f528ed2471f8e6a.d: C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\lib.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\iter.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\parser.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\traits.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\public.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\internal.rs C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\external.rs
+
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\lib.rs:
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\iter.rs:
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\parser.rs:
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\traits.rs:
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\public.rs:
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\internal.rs:
+C:\Users\apler\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bitflags-2.4.0\src\external.rs:
