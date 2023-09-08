@@ -7,6 +7,9 @@ use crate::*;
 
 pub const M_PI : f32 = 3.14159265358979323846;
 pub const M_TAU : f32 = 2.0_f32*M_PI;
+/// ###C3D_AngleFromDegrees
+/// converts radians to degrees
+/// 
 pub fn C3D_AngleFromDegrees(_angle : f32) -> f32 {
     return (_angle*M_TAU);
 }
