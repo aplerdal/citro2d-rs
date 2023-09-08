@@ -7,27 +7,47 @@ use crate::*;
 
 pub const M_PI : f32 = 3.14159265358979323846;
 pub const M_TAU : f32 = 2.0_f32*M_PI;
-/// ###C3D_AngleFromDegrees
-/// converts radians to degrees
-/// 
+/// ### C3D_AngleFromDegrees
+/// converts radians to degrees\
+/// **params:**\
+/// `_angle` - Angle in degrees
 pub fn C3D_AngleFromDegrees(_angle : f32) -> f32 {
     return (_angle*M_TAU);
 }
+/// ### C2D_FloatToU8
+/// converts float to u8\
+/// **params:**\
+/// `x` - float to convert \[0.0-1.0\]
 pub fn C2D_FloatToU8(x:f32) -> u8{
 	return (255.0_f32*x.clamp(0.0_f32, 1.0_f32)+0.5_f32) as u8;
 }
+/// ### C2D_Color32
+/// 32 bit color value (rgba)\
+/// **params:**\
+/// `r` - red u8\
+/// `g` - green u8\
+/// `b` - blue u8\
+/// `a` - alpha u8
 pub fn C2D_Color32(r:u8,g:u8,b:u8,a:u8) -> u32{
 	return ((r as u32) | ((g as u32) << 8) | ((b as u32) << 16) | ((a as u32) << 24));
 }
+
+/// ### C2D_Color32
+/// 32 bit color value from floats (rgba)\
+/// **params:**\
+/// `r` - red 0.0-1.0\
+/// `g` - green 0.0-1.0\
+/// `b` - blue 0.0-1.0\
+/// `a` - alpha 0.0-1.0
 pub fn C2D_Color32f(r:f32, g:f32, b:f32, a:f32) -> u32{
 	return C2D_Color32(C2D_FloatToU8(r),C2D_FloatToU8(g),C2D_FloatToU8(b),C2D_FloatToU8(a));
 }
 
 #[derive(Clone)]
 pub enum C2D_Corner {
-    C2D_TopLeft,  ///< Top left corner
-	C2D_TopRight, ///< Top right corner
-	C2D_BotLeft,  ///< Bottom left corner
+    C2D_TopLeft,  
+	C2D_TopRight, 
+	C2D_BotLeft,  
 	C2D_BotRight
 }
 
