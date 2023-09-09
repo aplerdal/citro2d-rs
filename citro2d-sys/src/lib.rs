@@ -6,6 +6,7 @@
 #![allow(clippy::all)]
 
 pub mod base;
+pub mod sprite;
 /* 
 pub mod font;
 pub mod sprite;
@@ -14,8 +15,10 @@ pub mod text;
 */
 mod bindings;
 
-pub use base::*;
 pub use bindings::*;
+
+pub use base::*;
+pub use sprite::*;
 /*
 pub use gx::*;
 pub use renderqueue::*;
