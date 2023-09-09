@@ -1,6 +1,6 @@
 //! Definitions from `<c2d/sprite.h>`
 
-/*TODO add comments
+/*TODO finish comments (coppied from sprite.h)
 write in the format:
 
 /// ### C2D_Example
@@ -70,7 +70,6 @@ pub unsafe fn C2D_SpriteScale(sprite: &mut C2D_Sprite, x:f32, y:f32) {
     sprite.params.center.x *= x;
     sprite.params.center.y *= y;
 }
-#[inline]
 /// ### C2D_SpriteRotate
 /// Rotate sprite (absolute)\
 /// **params:**\
