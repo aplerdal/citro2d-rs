@@ -105,7 +105,7 @@ pub unsafe fn C2D_ViewRotateDegrees(rotation : f32) {
 }
 
 #[inline]
-pub unsafe fn C2D_SceneBegin(target: &mut C3D_RenderTarget){
+pub unsafe fn C2D_SceneBegin(target: *mut C3D_RenderTarget){
     C2D_Flush();
     C3D_FrameDrawOn(target);
     C2D_SCeneTarget(*target);
