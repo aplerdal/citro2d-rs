@@ -95,7 +95,7 @@ pub unsafe fn C2D_RightImageTint(tint : &mut C2D_ImageTint,color:u32,blend:f32) 
 }
 
 #[inline]
-pub unsafe fn C2D_SCeneTarget(target: C3D_RenderTarget) {
+pub unsafe fn C2D_SceneTarget(target: C3D_RenderTarget) {
     C2D_SceneSize(target.frameBuf.width as u32_, target.frameBuf.height as u32_, target.linked)
 }
 
@@ -108,7 +108,7 @@ pub unsafe fn C2D_ViewRotateDegrees(rotation : f32) {
 pub unsafe fn C2D_SceneBegin(target: *mut C3D_RenderTarget){
     C2D_Flush();
     C3D_FrameDrawOn(target);
-    C2D_SCeneTarget(*target);
+    C2D_SceneTarget(*target);
 }
 #[inline]
 pub unsafe fn C2D_DrawImageAt(img:C2D_Image,x:f32,y:f32,depth:f32,/*following params should be optional*/tint:C2D_ImageTint,scaleX:f32,scaleY:f32) -> bool{
